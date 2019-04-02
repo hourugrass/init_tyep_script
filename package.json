@@ -1,0 +1,22 @@
+{
+  "name": "hello",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/main.js",
+  "dependencies": {
+    "ts-loader": "^5.3.3",
+    "tslint": "^5.15.0",
+    "tslint-config-airbnb": "^5.11.1",
+    "tslint-loader": "^3.5.4",
+    "typescript": "^3.4.1",
+    "webpack-cli": "^3.3.0",
+    "webpack": "^4.29.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "webpack --config webpack.config.dev.js",
+    "prod": "webpack --config webpack.config.prod.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
